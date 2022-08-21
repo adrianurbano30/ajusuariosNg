@@ -1,0 +1,27 @@
+ <!-- <h1 mat-dialog-title>Hi {{data.nombre}}</h1>
+<div mat-dialog-content>
+  <p>What's your favorite animal?</p>
+  <mat-form-field appearance="fill">
+    <mat-label>Favorite Animal</mat-label>
+    <input matInput [(ngModel)]="data.animal">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+</div> -->
+<div class="flex items-center justify-center">
+  <div class="grid grid-cols-1 gap-2 p-4 border-2 border-gray-50 rounded-xl">
+
+    <p class="text-base text-gray-600"><span class="font-bold">Nombre: </span>{{data.nombre}}</p>
+    <p class="text-base text-gray-600"><span class="font-bold">Apellido: </span>{{data.apellidos}}</p>
+    <p class="text-base text-gray-600"><span class="font-bold">Cédula: </span>{{data.cedula}}</p>
+    <p class="text-base text-gray-600"><span class="font-bold">Teléfono: </span>{{data.telefono}}</p>
+    <p class="text-base text-gray-600"><span class="font-bold">Correo Electrónico: </span>{{data.correoElectronico}}</p>
+
+    <div class="flex items-center justify-center">
+      <button mat-button (click)="cerrar()">Cerrar</button>
+      <!-- <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button> -->
+    </div>
+  </div>
+</div>

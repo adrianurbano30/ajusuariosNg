@@ -1,0 +1,68 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Adrian Javier",
+      "apellidos": "Urbano Navarro",
+      "cedula": 1063806054,
+      "telefono": 3137943652,
+      "correoElectronico": "javoshine@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "juanchis",
+      "apellidos": "urbano",
+      "cedula": 1111558898,
+      "telefono": 31422444,
+      "correoElectronico": "juancho@mail.com",
+      "id": 2
+    },
+    {
+      "nombre": "Esmeralda Jef",
+      "apellidos": "Crespo Lopez",
+      "cedula": 1130682906,
+      "telefono": 3235195485,
+      "correoElectronico": "esmecrez@hotmail.com",
+      "id": 3
+    },
+    {
+      "nombre": "fernando",
+      "apellidos": "Tosse",
+      "cedula": 999999999,
+      "telefono": 999999999,
+      "correoElectronico": "fernando@tose.com",
+      "id": 4
+    },
+    {
+      "nombre": "Cristofer",
+      "apellidos": "De la calle",
+      "cedula": 5555555555,
+      "telefono": 4444444444,
+      "correoElectronico": "cris@mail.com",
+      "id": 6
+    },
+    {
+      "nombre": "Leonardo",
+      "apellidos": "Care lo mio",
+      "cedula": 646546468,
+      "telefono": 468484648,
+      "correoElectronico": "carelomio@mail.com",
+      "id": 7
+    },
+    {
+      "nombre": "Esmeralda",
+      "apellidos": "Lopez",
+      "cedula": 43354,
+      "telefono": 534354,
+      "correoElectronico": "jef@mail.com",
+      "id": 8
+    },
+    {
+      "nombre": "Domingo",
+      "apellidos": "Quiñonez",
+      "cedula": 415315,
+      "telefono": 1351351,
+      "correoElectronico": "mail@mail.com",
+      "id": 9
+    }
+  ]
+}

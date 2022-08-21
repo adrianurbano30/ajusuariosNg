@@ -1,0 +1,18 @@
+<div class="flex items-center justify-center">
+  <div class="grid grid-cols-1 border-2 border-red-600 rounded-xl p-4 shadow-md shadow-red-400">
+    <h1 class="text-center text-3xl text-red-700 font-bold">ELIMINAR USUARIO</h1>
+    <p class="text-center text-red-400 text-lg">¿Estas eguro de eliminar al usuario <span class="font-extrabold">{{data.nombre}} {{data.apellidos}}</span>?</p>
+    <p class="text-center text-red-400 text-base">¡¡No se pueden recuperar los datos eliminados!!</p>
+    <div class="flex items-center justify-center ">
+      <div class="grid w-full grid-cols-1 gap-1">
+        <!-- <button mat-button [mat-dialog-close]="usuarioForm.value"  cdkFocusInitial [disabled]="usuarioForm.invalid" [ngClass]="{'bg-gray-500':usuarioForm.invalid,'text-black':usuarioForm.invalid,'hover:bg-gray-700':usuarioForm.invalid,'bg-blue-500':usuarioForm.valid,'text-white':usuarioForm.valid,'hover:bg-blue-700':usuarioForm.valid}"  class="block w-full px-2 py-1 text-lg font-bold transition duration-700 border-2 border-gray-100 rounded focus:outline-none focus:shadow-outline" > -->
+        <button mat-button [mat-dialog-close]="data"   class="block w-full px-2 py-1 text-lg transition duration-700 border-2 bg-red-400 hover:bg-white hover:text-red-600 hover:border-red-600  text-white font-bold  rounded-xl focus:outline-none focus:shadow-outline">
+          ELIMINAR
+        </button>
+        <button (click)="cerrar()"class="block w-full px-2 py-1 text-lg font-bold transition duration-700 border-2 border-gray-400 rounded focus:outline-none focus:shadow-outline" >
+          CANCELAR
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

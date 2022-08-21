@@ -1,0 +1,9 @@
+<div   class="flex items-center  justify-between cursor-pointer px-2 py-1 my-1 transition duration-700 border-4 rounded-lg bg-gray-50 hover:border-sky-800">
+  <div (click)="mdlverUsuario()" class="mr-6 ">
+    {{usuario.nombre}}
+  </div>
+  <div class="flex items-center justify-between">
+    <fa-icon (click)="mdlupdateUsuario()" [icon]="iconActualizar" class="mr-2 text-xl font-bold text-yellow-900 transition duration-700 cursor-pointer  hover:text-yellow-500"></fa-icon>
+    <fa-icon (click)="mdleliminarUsuario()" [icon]="iconEliminar" class="text-xl font-bold text-red-900 transition duration-700 cursor-pointer  hover:text-red-500"></fa-icon>
+  </div>
+</div>
