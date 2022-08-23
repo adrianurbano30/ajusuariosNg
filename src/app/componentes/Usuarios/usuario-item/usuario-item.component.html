@@ -1,9 +1,21 @@
-<div   class="flex items-center  justify-between cursor-pointer px-2 py-1 my-1 transition duration-700 border-4 rounded-lg bg-gray-50 hover:border-sky-800">
+<!-- <div   class="flex items-center justify-between px-2 py-1 my-1 transition duration-700 border-4 rounded-lg cursor-pointer bg-gray-50 hover:border-sky-800">
   <div (click)="mdlverUsuario()" class="mr-6 ">
     {{usuario.nombre}}
   </div>
   <div class="flex items-center justify-between">
-    <fa-icon (click)="mdlupdateUsuario()" [icon]="iconActualizar" class="mr-2 text-xl font-bold text-yellow-900 transition duration-700 cursor-pointer  hover:text-yellow-500"></fa-icon>
-    <fa-icon (click)="mdleliminarUsuario()" [icon]="iconEliminar" class="text-xl font-bold text-red-900 transition duration-700 cursor-pointer  hover:text-red-500"></fa-icon>
+    <fa-icon (click)="mdlupdateUsuario()" [icon]="iconActualizar" class="mr-2 text-xl font-bold text-yellow-900 transition duration-700 cursor-pointer hover:text-yellow-500"></fa-icon>
+    <fa-icon (click)="mdleliminarUsuario()" [icon]="iconEliminar" class="text-xl font-bold text-red-900 transition duration-700 cursor-pointer hover:text-red-500"></fa-icon>
+  </div>
+</div> -->
+<div  class="relative flex items-center justify-center p-2 border-2 border-gray-200 shadow-lg rounded-xl shadow-gray-300">
+  <div class="absolute top-0 flex items-center justify-center right-1">
+    <fa-icon (click)="mdlupdateUsuario()" [icon]="iconActualizar" class="mr-2 text-base font-bold text-yellow-900 transition duration-700 cursor-pointer hover:text-yellow-500"></fa-icon>
+    <fa-icon (click)="mdleliminarUsuario()" [icon]="iconEliminar" class="text-base font-bold text-red-900 transition duration-700 cursor-pointer hover:text-red-500"></fa-icon>
+  </div>
+  <div (click)="mdlverUsuario()" class="flex items-center justify-center w-full mt-4 border-t-2 border-gray-300 cursor-pointer">
+    <div class="grid grid-cols-1">
+     <p class="italic font-bold"> {{usuario.nombre}} {{usuario.apellidos}}</p>
+     <p class="text-sm text-justify text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aut dicta praesentium explicabo odio, distinctio voluptas eveniet inventore harum similique doloribus, assumenda repellat sunt fugiat nemo corporis beatae fuga repellendus.</p>
+    </div>
   </div>
 </div>

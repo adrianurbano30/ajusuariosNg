@@ -63,6 +63,54 @@
       "telefono": 1351351,
       "correoElectronico": "mail@mail.com",
       "id": 9
+    },
+    {
+      "nombre": "juanchs",
+      "apellidos": "crespo",
+      "cedula": 534343,
+      "telefono": 53434354,
+      "correoElectronico": "juanchis@mail.com",
+      "id": 10
+    },
+    {
+      "nombre": "choma",
+      "apellidos": "macho",
+      "cedula": 648464,
+      "telefono": 6848464,
+      "correoElectronico": "choma@mail.com",
+      "id": 11
+    },
+    {
+      "nombre": "phil ",
+      "apellidos": "collings",
+      "cedula": 654646,
+      "telefono": 3541351,
+      "correoElectronico": "phil@mail.com",
+      "id": 12
+    },
+    {
+      "nombre": "carmen",
+      "apellidos": "de lo q sabemos",
+      "cedula": 1351351,
+      "telefono": 315135,
+      "correoElectronico": "carmen@mail.com",
+      "id": 13
+    },
+    {
+      "nombre": "making",
+      "apellidos": "moredfa",
+      "cedula": 55454,
+      "telefono": 54554455,
+      "correoElectronico": "mail@mail.com",
+      "id": 14
+    },
+    {
+      "nombre": "Nueva York",
+      "apellidos": "urbano",
+      "cedula": 45345345,
+      "telefono": 345345345,
+      "correoElectronico": "juanchis@mail.com",
+      "id": 15
     }
   ]
 }
