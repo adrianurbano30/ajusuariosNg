@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "nombre": "Adrian Javier",
+      "nombre": "Adrian Javier2",
       "apellidos": "Urbano Navarro",
       "cedula": 1063806054,
       "telefono": 3137943652,
@@ -111,6 +111,30 @@
       "telefono": 345345345,
       "correoElectronico": "juanchis@mail.com",
       "id": 15
+    },
+    {
+      "nombre": "Aldo ",
+      "apellidos": "Tales",
+      "cedula": 21351313,
+      "telefono": 315351351,
+      "correoElectronico": "aldo@mail.com",
+      "id": 16
+    },
+    {
+      "nombre": "Newss",
+      "apellidos": "Userss",
+      "cedula": 241242444,
+      "telefono": 24242,
+      "correoElectronico": "new@mail.com",
+      "id": 17
+    },
+    {
+      "nombre": "fafasf",
+      "apellidos": "asdfasdf",
+      "cedula": 234234,
+      "telefono": 234234,
+      "correoElectronico": "chavis@mail.com",
+      "id": 18
     }
   ]
 }

@@ -1,25 +1,36 @@
 import { Usuario } from './../../../interfaces/usuario';
 import { UsuariosService } from './../../../servicios/usuarios.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { MatDialog } from '@angular/material/dialog';
 import { AddUsuarioComponent } from '../Dialogs/add-usuario/add-usuario.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-usuarios',
   templateUrl: './usuarios.component.html',
   styleUrls: ['./usuarios.component.css']
 })
-export class UsuariosComponent implements OnInit {
+export class UsuariosComponent implements OnInit,OnChanges,OnDestroy {
 
   usuarios:Usuario[]=[];
   iconAgregar = faPlus;
 
 
-  constructor(private svcUsuario:UsuariosService,public modal:MatDialog ) { }
+  constructor(private svcUsuario:UsuariosService,public modal:MatDialog,private router:ActivatedRoute ) { }
 
   ngOnInit(): void {
+
+    //this.usuarios = this.router.snapshot.data['usuarios'];
+
     this.obtenerUsuarios();
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    this.usuarios = this.router.snapshot.data['usuarios'];
+  }
+  ngOnDestroy(): void {
+    this.usuarios = this.router.snapshot.data['usuarios'];
   }
   obtenerUsuarios(){
     this.svcUsuario.obtenerUsuarios().subscribe(resp=>{
